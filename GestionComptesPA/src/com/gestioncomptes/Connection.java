@@ -9,7 +9,7 @@ public class Connection {
 
     public Connection() {
         try {
-            c = DriverManager.getConnection("jdbc:mysql://localhost:8889/pa", "root", "root");
+            c = DriverManager.getConnection("jdbc:mysql://?:?", "?", "?");
             s = c.createStatement();
         } catch (Exception e) {
             e.printStackTrace();
